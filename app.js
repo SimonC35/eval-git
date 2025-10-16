@@ -18,7 +18,7 @@ function renderBooks() {
     const editBtn = document.createElement('button');
     editBtn.textContent = "Modifier titre";
     editBtn.onclick = () => {
-      // Insérer ici le code pour modifier le titre du livre
+      titleTd.textContent = "Titre changer"
     };
     actionsTd.appendChild(editBtn);
 
